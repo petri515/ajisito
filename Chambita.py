@@ -131,3 +131,9 @@ for i in range(nomero):
 
 #   Vigesimo tercero
 
+mcd_1= int(input())
+modula = 1
+
+While modula!=0:
+
+

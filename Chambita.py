@@ -129,11 +129,30 @@ for i in range(nomero):
         print(numero)
     numero-=1
 
-#   Vigesimo tercero
+#   Vigesimotercero
 
-mcd_1= int(input())
-modula = 1
+mcd_1 = int(input())
+mcd_2 = int(input())
 
-While modula!=0:
+while mcd_1 % mcd_2 !=0 :
+	mcd_2 = mcd_1 % mcd_2	
 
+print(mcd_2)
+#    Vigesimocuarto
+numa = int(input())
+numb = int(input())
+numc = int(input())
 
+dicr = (numb**2 - 4*numa*numc)**0.5
+
+x1 = (-numb + dicr) / (2*numa)
+x2 = (-numb - dicr) / (2*numa)
+
+print(x1,x2)
+#    Vigesimoquinto
+factorial = int(input())
+resul_fact = factorial
+while resul_fact-1 != 0:
+    factorial= factorial*(resul_fact-1)
+    resul_fact-=1 
+print(factorial)

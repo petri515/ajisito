@@ -89,3 +89,45 @@ for i in range(1,101):
 
     X += i**2
 print(X)    
+
+#   Decimooctavo
+num_in =int(input())
+sumilla = 0
+for i in range(100):
+    sumilla += num_in
+    num_in +=1
+print(num_in)
+
+#   Decimonoveno    
+num_eu = float()
+num_dola_dola = num_eu * 1.1
+print(num_dola_dola)
+
+#   Vigesimo
+
+Altura = float(input("Ingrese la altura: "))
+anchura = float(input("Ingrese la anchura: "))
+print(anchura*Altura)
+
+#   Vigesimo primero
+num_1 = int(input("numero 1: "))
+num_2 = int(input("numero 2: "))
+
+if num_1 > num_2:
+    print(num_1, "es el mayor y el menor es ", num_2)
+elif num_1 == num_2:
+    print("Los numeros son iguales")
+else:
+    print(num_2, "es el mayor y el menor es", num_1)
+
+#   Vigesimo segundo
+
+nomero = int(input("Numero: "))
+numero = nomero
+for i in range(nomero):
+    if numero%2==1:
+        print(numero)
+    numero-=1
+
+#   Vigesimo tercero
+
